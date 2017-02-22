@@ -1,0 +1,50 @@
+html {
+	background: gray;
+}
+
+.btn {
+  background: #457799;
+  background-image: -webkit-linear-gradient(top, #457799, #2bb878);
+  background-image: -moz-linear-gradient(top, #457799, #2bb878);
+  background-image: -ms-linear-gradient(top, #457799, #2bb878);
+  background-image: -o-linear-gradient(top, #457799, #2bb878);
+  background-image: linear-gradient(to bottom, #457799, #2bb878);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  text-shadow: 1px 1px 3px #416fa8;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2581ba;
+  background-image: -webkit-linear-gradient(top, #2581ba, #10476b);
+  background-image: -moz-linear-gradient(top, #2581ba, #10476b);
+  background-image: -ms-linear-gradient(top, #2581ba, #10476b);
+  background-image: -o-linear-gradient(top, #2581ba, #10476b);
+  background-image: linear-gradient(to bottom, #2581ba, #10476b);
+  text-decoration: none;
+}
+
+.planetBox {
+	border: solid black 2px;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin: 20px;
+}
+
+.planetName {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+	position: absolute;
+	margin-top: 128px;
+	width: inherit;
+}
